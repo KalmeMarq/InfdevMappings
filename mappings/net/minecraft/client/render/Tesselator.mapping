@@ -3,5 +3,6 @@ CLASS net/minecraft/client/a/d net/minecraft/client/render/Tesselator
 	METHOD a end ()V
 	METHOD a vertex (DDD)V
 	METHOD a vertexUV (DDDDD)V
+	METHOD a color (FFFF)V
 	METHOD b begin ()V
 	METHOD b color (I)V

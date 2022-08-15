@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/c/n net/minecraft/client/gui/screen/ControlsScreen
+	FIELD g parent Lnet/minecraft/client/c/i;
+	FIELD h title Ljava/lang/String;
+	FIELD j options Lnet/minecraft/client/p;
+	FIELD k selected I
+	METHOD <init> (Lnet/minecraft/client/c/i;Lnet/minecraft/client/p;)V
+		ARG 1 parent
+		ARG 2 options

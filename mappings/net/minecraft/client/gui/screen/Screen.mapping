@@ -1,0 +1,22 @@
+CLASS net/minecraft/client/c/i net/minecraft/client/gui/screen/Screen
+	FIELD a client Lnet/minecraft/client/d;
+	FIELD b width I
+	FIELD c height I
+	FIELD d buttons Ljava/util/List;
+	FIELD f textRenderer Lnet/minecraft/client/c/k;
+	METHOD a close ()V
+	METHOD a (CI)V
+		ARG 1 chr
+		ARG 2 code
+	METHOD a render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 deltaTime
+	METHOD a buttonClicked (Lnet/minecraft/client/c/o;)V
+		ARG 1 button
+	METHOD a init (Lnet/minecraft/client/d;II)V
+		ARG 1 client
+		ARG 2 width
+		ARG 3 height
+	METHOD b init ()V
+	METHOD g tick ()V

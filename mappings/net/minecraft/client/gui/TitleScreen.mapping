@@ -1,3 +1,0 @@
-CLASS net/minecraft/client/q net/minecraft/client/gui/TitleScreen
-	FIELD h splashTexts [Ljava/lang/String;
-	FIELD j currentSplash Ljava/lang/String;

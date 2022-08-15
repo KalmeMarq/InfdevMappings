@@ -1,0 +1,28 @@
+CLASS net/minecraft/client/c/o net/minecraft/client/gui/widget/Button
+	FIELD a message Ljava/lang/String;
+	FIELD b id I
+	FIELD c active Z
+	FIELD d width I
+	FIELD e height I
+	FIELD f x I
+	FIELD g y I
+	FIELD h visible Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 width
+		ARG 5 height
+		ARG 6 message
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 message
+	METHOD a clicked (II)Z
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a render (Lnet/minecraft/client/d;II)V
+		ARG 1 mc
+		ARG 2 mouseX
+		ARG 3 mouseY

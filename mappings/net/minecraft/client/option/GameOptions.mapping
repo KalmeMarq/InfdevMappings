@@ -21,6 +21,7 @@ CLASS net/minecraft/client/p net/minecraft/client/option/GameOptions
 	FIELD r saveLocationKey Lnet/minecraft/client/g;
 	FIELD s loadLocationKey Lnet/minecraft/client/g;
 	FIELD t keybinds [Lnet/minecraft/client/g;
+	FIELD u optionsCount I
 	FIELD v difficulty I
 	FIELD x RENDER_DISTANCES [Ljava/lang/String;
 	FIELD y DIFFICULTIES [Ljava/lang/String;

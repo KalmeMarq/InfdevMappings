@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/c/a/k net/minecraft/client/gui/screen/EditSignScreen
+	FIELD g title Ljava/lang/String;
+	FIELD j ticks I

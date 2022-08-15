@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/c/j net/minecraft/client/gui/screen/SelectWorldScreen
+	FIELD g parent Lnet/minecraft/client/c/i;
+	FIELD h title Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/c/i;)V
+		ARG 1 parent

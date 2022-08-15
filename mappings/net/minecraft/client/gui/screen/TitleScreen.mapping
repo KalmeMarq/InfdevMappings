@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/q net/minecraft/client/gui/screen/TitleScreen
+	FIELD g ticks F
+	FIELD h splashTexts [Ljava/lang/String;
+	FIELD j currentSplash Ljava/lang/String;

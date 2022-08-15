@@ -1,1 +1,28 @@
 CLASS net/minecraft/client/c/l net/minecraft/client/util/DrawableHelper
+	FIELD i blitOffset F
+	METHOD a fill (IIIIII)V
+		ARG 0 x0
+		ARG 1 y0
+		ARG 2 x1
+		ARG 3 y1
+		ARG 4 colorStart
+		ARG 5 colorEnd
+	METHOD a drawCenteredString (Lnet/minecraft/client/c/k;Ljava/lang/String;III)V
+		ARG 0 textRenderer
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD b blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 u
+		ARG 4 v
+		ARG 5 width
+		ARG 6 height
+	METHOD b drawString (Lnet/minecraft/client/c/k;Ljava/lang/String;III)V
+		ARG 0 textRenderer
+		ARG 1 text
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
