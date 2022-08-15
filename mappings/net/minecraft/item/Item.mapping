@@ -1,0 +1,17 @@
+CLASS net/minecraft/a/b/k net/minecraft/item/Item
+	FIELD a random Ljava/util/Random;
+	FIELD ax id I
+	METHOD a (Lnet/minecraft/a/a/b/aa;)Z
+		ARG 1 block
+	METHOD a (Lnet/minecraft/a/b/o;)V
+		ARG 1 itemStack
+	METHOD a (Lnet/minecraft/a/b/o;Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/e/a;)Lnet/minecraft/a/b/o;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD a (Lnet/minecraft/a/b/o;Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/a/g;IIII)Z
+		ARG 1 itemStack
+		ARG 2 player
+		ARG 3 world
+	METHOD b (Lnet/minecraft/a/b/o;)V
+		ARG 1 itemStack

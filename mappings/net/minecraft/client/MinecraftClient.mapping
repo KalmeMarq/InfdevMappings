@@ -25,6 +25,7 @@ CLASS net/minecraft/client/d net/minecraft/client/MinecraftClient
 	FIELD o gameRenderer Lnet/minecraft/client/a/e;
 	FIELD p loadmapUser Ljava/lang/String;
 	FIELD q loadmapId I
+	FIELD r hud Lnet/minecraft/client/c/m;
 	FIELD u gameOptions Lnet/minecraft/client/p;
 	FIELD v soundEngine Lnet/minecraft/client/e/c;
 	FIELD w mouseGrabber Lnet/minecraft/client/l;

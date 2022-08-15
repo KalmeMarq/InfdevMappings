@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/c/a/b net/minecraft/client/gui/screen/inventory/CraftingScreen
+	METHOD <init> (Lnet/minecraft/a/c/e/b;)V
+		ARG 1 inventory

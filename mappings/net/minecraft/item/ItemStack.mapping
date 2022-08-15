@@ -1,0 +1,23 @@
+CLASS net/minecraft/a/b/o net/minecraft/item/ItemStack
+	FIELD a count I
+	FIELD c id I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 count
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/a/a/b/aa;)V
+		ARG 1 block
+	METHOD <init> (Lnet/minecraft/a/a/b/aa;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/a/b/k;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/a/b/k;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD a serialize (Lcom/a/a/c;)Lcom/a/a/c;
+		ARG 1 compound

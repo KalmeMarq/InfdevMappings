@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/a/b/a/a net/minecraft/entity/TileEntity
+	FIELD a world Lnet/minecraft/a/a/g;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e byName Ljava/util/Map;
+	FIELD f byClass Ljava/util/Map;
+	METHOD a deserialize (Lcom/a/a/c;)V
+		ARG 1 compound
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 tileEntity
+		ARG 1 name
+	METHOD b serialize (Lcom/a/a/c;)V
+		ARG 1 compound
+	METHOD c (Lcom/a/a/c;)Lnet/minecraft/a/a/b/a/a;
+		ARG 0 compound

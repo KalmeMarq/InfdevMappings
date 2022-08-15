@@ -7,5 +7,10 @@ CLASS net/minecraft/client/f/d net/minecraft/client/particle/ParticleEngine
 		COMMENT     <li>0: /particles.png</li>
 		COMMENT     <li>1: /terrain.png</li>
 		COMMENT </ul>
+	FIELD c textureManager Lnet/minecraft/client/a/k;
+	FIELD d random Ljava/util/Random;
 	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/client/a/k;)V
 		ARG 1 world
+		ARG 2 textureManager
+	METHOD a (Lnet/minecraft/a/c/b;F)V
+		ARG 1 entity

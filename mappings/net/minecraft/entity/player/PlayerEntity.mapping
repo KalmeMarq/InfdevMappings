@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/c/e/a net/minecraft/entity/player/PlayerEntity
+	FIELD R score I
+	FIELD b inventory Lnet/minecraft/a/c/e/b;

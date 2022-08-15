@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/c/m net/minecraft/client/gui/hud/InGameHud
+	FIELD c random Ljava/util/Random;
+	FIELD d mc Lnet/minecraft/client/d;
+	FIELD e ticks I
+	METHOD <init> (Lnet/minecraft/client/d;)V
+		ARG 1 client
+	METHOD a tick ()V
+	METHOD a render (F)V
+		ARG 1 deltaTime

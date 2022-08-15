@@ -20,3 +20,4 @@ CLASS net/minecraft/client/c/i net/minecraft/client/gui/screen/Screen
 		ARG 3 height
 	METHOD b init ()V
 	METHOD g tick ()V
+	METHOD h renderBackground ()V

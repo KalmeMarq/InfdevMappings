@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/c/a/c net/minecraft/client/gui/screen/inventory/FurnaceScreen
+	METHOD <init> (Lnet/minecraft/a/c/e/b;Lnet/minecraft/a/a/b/a/b;)V
+		ARG 1 inventory

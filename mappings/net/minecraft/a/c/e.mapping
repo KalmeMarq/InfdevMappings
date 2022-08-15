@@ -1,0 +1,11 @@
+CLASS net/minecraft/a/c/e
+	FIELD a byName Ljava/util/Map;
+	FIELD b byClass Ljava/util/Map;
+	METHOD a (Lcom/a/a/c;Lnet/minecraft/a/a/g;)Lnet/minecraft/a/c/b;
+		ARG 0 compound
+		ARG 1 world
+	METHOD a register (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 entityClass
+		ARG 1 name
+	METHOD a getName (Lnet/minecraft/a/c/b;)Ljava/lang/String;
+		ARG 0 entity

@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/c/a/j net/minecraft/client/gui/screen/inventory/ContainerScreen
+	FIELD g invWidth I
+	FIELD h invHeight I
+	FIELD j slots Ljava/util/List;

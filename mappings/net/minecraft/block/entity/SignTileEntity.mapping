@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/a/b/a/d net/minecraft/block/entity/SignTileEntity
+	FIELD e texts [Ljava/lang/String;

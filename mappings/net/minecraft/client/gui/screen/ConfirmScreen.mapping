@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/c/h net/minecraft/client/gui/screen/ConfirmScreen
+	FIELD g parent Lnet/minecraft/client/c/i;
+	FIELD h title Ljava/lang/String;
+	FIELD j message Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/c/i;Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 parent
+		ARG 2 title
+		ARG 3 message
