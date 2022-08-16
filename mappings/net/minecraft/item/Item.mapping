@@ -27,6 +27,8 @@ CLASS net/minecraft/a/b/k net/minecraft/item/Item
 	FIELD ak GOLD_LEGGINGS Lnet/minecraft/a/b/k;
 	FIELD al GOLD_BOOTS Lnet/minecraft/a/b/k;
 	FIELD am FLINT Lnet/minecraft/a/b/k;
+	FIELD an RAW_PORKCHOP Lnet/minecraft/a/b/k;
+	FIELD ao COOKED_PORKCHOP Lnet/minecraft/a/b/k;
 	FIELD ap PAINTING Lnet/minecraft/a/b/k;
 	FIELD aq GOLDEN_APPLE Lnet/minecraft/a/b/k;
 	FIELD ar SIGN Lnet/minecraft/a/b/k;

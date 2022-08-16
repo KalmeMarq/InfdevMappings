@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/a/c/a
+	FIELD a random Ljava/util/Random;
+	FIELD j world Lnet/minecraft/a/a/g;
+	METHOD <init> (Lnet/minecraft/a/a/g;J)V
+		ARG 1 world
+		ARG 2 seed

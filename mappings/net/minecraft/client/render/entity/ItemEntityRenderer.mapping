@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/a/a/e
+CLASS net/minecraft/client/a/a/e net/minecraft/client/render/entity/ItemEntityRenderer
 	METHOD a (Lnet/minecraft/client/a/d;IIIII)V
 		ARG 0 tesselator
 		ARG 1 x0

@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/b/d net/minecraft/client/model/ModelPart
+	FIELD f visible Z

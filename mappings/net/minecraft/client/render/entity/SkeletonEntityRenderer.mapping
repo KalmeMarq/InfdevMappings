@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/a/a/l net/minecraft/client/render/entity/SkeletonEntityRenderer
+	FIELD d model Lnet/minecraft/client/b/n;
+	METHOD <init> (Lnet/minecraft/client/b/n;F)V
+		ARG 1 model

@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/a/a/j net/minecraft/client/render/entity/EntityRenderers
+	FIELD e textureManager Lnet/minecraft/client/a/k;
+	FIELD f world Lnet/minecraft/a/a/g;
+	FIELD h options Lnet/minecraft/client/p;
+	METHOD a setWorld (Lnet/minecraft/a/a/g;)V
+		ARG 1 world
+	METHOD a (Lnet/minecraft/a/a/g;Lnet/minecraft/client/a/k;Lnet/minecraft/client/c/k;Lnet/minecraft/a/c/e/a;Lnet/minecraft/client/p;F)V
+		ARG 1 world
+		ARG 2 textureManager

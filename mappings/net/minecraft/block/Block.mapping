@@ -105,6 +105,9 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/block/Block
 		ARG 1 random
 	METHOD a (Lnet/minecraft/a/a/g;III)Z
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a (Lnet/minecraft/a/a/g;IIIIF)V
 		ARG 1 world
 	METHOD a tick (Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
@@ -167,6 +170,9 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/block/Block
 		ARG 4 z
 	METHOD e (Lnet/minecraft/a/a/g;III)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD e (Lnet/minecraft/a/a/g;IIII)V
 		ARG 1 world
 	METHOD f (Lnet/minecraft/a/a/g;III)V

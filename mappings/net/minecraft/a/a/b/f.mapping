@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/b/f
+	METHOD <init> (IILnet/minecraft/a/a/d/c;Z)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 material

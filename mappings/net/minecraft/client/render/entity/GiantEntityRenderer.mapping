@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/a/a/n net/minecraft/client/render/entity/GiantEntityRenderer
+	METHOD <init> (Lnet/minecraft/client/b/n;FF)V
+		ARG 1 model

@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/a/f
+	FIELD a world Lnet/minecraft/a/a/g;
+	METHOD <init> (Lnet/minecraft/a/a/g;)V
+		ARG 1 world

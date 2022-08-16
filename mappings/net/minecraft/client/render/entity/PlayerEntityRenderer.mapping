@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/a/a/g net/minecraft/client/render/entity/PlayerEntityRenderer
+	METHOD a (Lnet/minecraft/a/c/e/a;DDDFF)V
+		ARG 1 player

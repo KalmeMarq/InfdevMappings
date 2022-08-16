@@ -1,4 +1,9 @@
 CLASS net/minecraft/a/a/e/b
+	FIELD b worldFolder Ljava/io/File;
+	FIELD c world Lnet/minecraft/a/a/g;
+	METHOD <init> (Lnet/minecraft/a/a/g;Ljava/io/File;)V
+		ARG 1 world
+		ARG 2 worldFolder
 	METHOD c (II)Lnet/minecraft/a/a/e/e;
 		ARG 1 x
 		ARG 2 z

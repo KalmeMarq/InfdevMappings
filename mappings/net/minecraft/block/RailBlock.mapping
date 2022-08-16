@@ -1,0 +1,11 @@
+CLASS net/minecraft/a/a/b/n net/minecraft/block/RailBlock
+	METHOD i (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j (Lnet/minecraft/a/a/g;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

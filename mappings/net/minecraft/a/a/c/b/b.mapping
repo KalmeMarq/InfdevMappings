@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/a/c/b/b
+	METHOD a (Lnet/minecraft/a/a/g;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 random

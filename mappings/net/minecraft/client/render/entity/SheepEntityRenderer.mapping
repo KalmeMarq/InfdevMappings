@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/a/a/m net/minecraft/client/render/entity/SheepEntityRenderer
+	METHOD <init> (Lnet/minecraft/client/b/n;Lnet/minecraft/client/b/n;F)V
+		ARG 1 model

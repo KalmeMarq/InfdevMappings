@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/c/a net/minecraft/entity/painting/PaintingEntity
+	FIELD b variantId Lnet/minecraft/a/c/d;
+	METHOD <init> (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world
