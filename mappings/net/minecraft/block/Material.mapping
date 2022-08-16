@@ -1,2 +1,15 @@
 CLASS net/minecraft/a/a/d/c net/minecraft/block/Material
+	FIELD a AIR Lnet/minecraft/a/a/d/c;
+	FIELD b SOIL Lnet/minecraft/a/a/d/c;
+	FIELD c WOOD Lnet/minecraft/a/a/d/c;
+	FIELD d STONE Lnet/minecraft/a/a/d/c;
+	FIELD e METAL Lnet/minecraft/a/a/d/c;
+	FIELD f WATER Lnet/minecraft/a/a/d/c;
+	FIELD g LAVA Lnet/minecraft/a/a/d/c;
+	FIELD h LEAVES Lnet/minecraft/a/a/d/c;
+	FIELD i PLANT Lnet/minecraft/a/a/d/c;
+	FIELD j SPONGE Lnet/minecraft/a/a/d/c;
+	FIELD k CLOTH Lnet/minecraft/a/a/d/c;
+	FIELD o GLASS Lnet/minecraft/a/a/d/c;
+	FIELD p TNT Lnet/minecraft/a/a/d/c;
 	METHOD d isFluid ()Z

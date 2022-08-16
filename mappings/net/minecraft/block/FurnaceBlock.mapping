@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/b/u net/minecraft/block/FurnaceBlock
+	FIELD a lit Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 lit

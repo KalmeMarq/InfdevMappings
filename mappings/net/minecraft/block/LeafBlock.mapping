@@ -1,1 +1,4 @@
 CLASS net/minecraft/a/a/b/p net/minecraft/block/LeafBlock
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex

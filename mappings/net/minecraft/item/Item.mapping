@@ -1,6 +1,22 @@
 CLASS net/minecraft/a/b/k net/minecraft/item/Item
+	FIELD A stick Lnet/minecraft/a/b/k;
+	FIELD B bowl Lnet/minecraft/a/b/k;
+	FIELD C mushroomStew Lnet/minecraft/a/b/k;
+	FIELD H string Lnet/minecraft/a/b/k;
+	FIELD J gunpowder Lnet/minecraft/a/b/k;
 	FIELD a random Ljava/util/Random;
+	FIELD am flint Lnet/minecraft/a/b/k;
+	FIELD ar sign Lnet/minecraft/a/b/k;
+	FIELD as door Lnet/minecraft/a/b/k;
+	FIELD at bucket Lnet/minecraft/a/b/k;
+	FIELD aw minecart Lnet/minecraft/a/b/k;
 	FIELD ax id I
+	FIELD f flintAndSteel Lnet/minecraft/a/b/k;
+	FIELD g apple Lnet/minecraft/a/b/k;
+	FIELD j coal Lnet/minecraft/a/b/k;
+	FIELD k diamond Lnet/minecraft/a/b/k;
+	FIELD l ironIngot Lnet/minecraft/a/b/k;
+	FIELD m goldIngot Lnet/minecraft/a/b/k;
 	METHOD a (Lnet/minecraft/a/a/b/aa;)Z
 		ARG 1 block
 	METHOD a (Lnet/minecraft/a/b/o;)V

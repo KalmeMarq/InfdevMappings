@@ -26,7 +26,17 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/block/Block
 	FIELD Y bricks Lnet/minecraft/a/a/b/aa;
 	FIELD Z tnt Lnet/minecraft/a/a/b/aa;
 	FIELD aA stepSound Lnet/minecraft/a/a/b/o;
+	FIELD aB particleMass F
 	FIELD aC material Lnet/minecraft/a/a/d/c;
+	FIELD aD WOOD_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aE GRAVEL_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aF GRASS_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aG STONE_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aH METAL_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aJ CLOTH_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aK SAND_SOUND Lnet/minecraft/a/a/b/o;
+	FIELD aL LIQUID_BLOCKS [Z
+	FIELD a NONE Lnet/minecraft/a/a/b/o;
 	FIELD aa bookshelf Lnet/minecraft/a/a/b/aa;
 	FIELD ab cobblestoneMossy Lnet/minecraft/a/a/b/aa;
 	FIELD ac obsidian Lnet/minecraft/a/a/b/aa;
@@ -41,8 +51,18 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/block/Block
 	FIELD al farmland Lnet/minecraft/a/a/b/aa;
 	FIELD am furnace Lnet/minecraft/a/a/b/aa;
 	FIELD an furnaceLit Lnet/minecraft/a/a/b/aa;
+	FIELD aq ladder Lnet/minecraft/a/a/b/aa;
+	FIELD ar rail Lnet/minecraft/a/a/b/aa;
+	FIELD as tex I
 	FIELD at id I
+	FIELD au minX D
+	FIELD av minY D
+	FIELD aw minZ D
+	FIELD ax maxX D
+	FIELD ay maxY D
+	FIELD az axZ D
 	FIELD b blocks [Lnet/minecraft/a/a/b/aa;
+	FIELD c ticking [Z
 	FIELD g stone Lnet/minecraft/a/a/b/aa;
 	FIELD h grass Lnet/minecraft/a/a/b/ai;
 	FIELD i dirt Lnet/minecraft/a/a/b/aa;
@@ -65,5 +85,88 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/block/Block
 	FIELD z glass Lnet/minecraft/a/a/b/aa;
 	METHOD <init> (ILnet/minecraft/a/a/d/c;)V
 		ARG 1 id
-	METHOD a (ILjava/util/Random;)I
+		ARG 2 material
+	METHOD a breakTime (F)Lnet/minecraft/a/a/b/aa;
+	METHOD a setShape (FFFFFF)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD a getTextureForSide (I)I
+		ARG 1 side
+	METHOD a getDrop (ILjava/util/Random;)I
 		ARG 2 random
+	METHOD a getDropCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD a (Lnet/minecraft/a/a/g;III)Z
+		ARG 1 world
+	METHOD a (Lnet/minecraft/a/a/g;IIIIF)V
+		ARG 1 world
+	METHOD a tick (Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/c/b;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD a (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/c/e/a;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD a (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/d/a;)V
+		ARG 1 world
+	METHOD a (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+		ARG 1 world
+		ARG 5 vec3
+		ARG 6 vec32
+	METHOD a (Lnet/minecraft/a/c/e/a;)F
+		ARG 1 player
+	METHOD b (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world
+	METHOD b (Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD b (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/c/e/a;)V
+		ARG 1 world
+		ARG 5 player
+	METHOD b setTicking (Z)V
+		ARG 1 ticking
+	METHOD c blastResistance (F)Lnet/minecraft/a/a/b/aa;
+	METHOD c (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+	METHOD c shouldRenderFace (Lnet/minecraft/a/a/g;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD d (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+	METHOD e (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world
+	METHOD f (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+	METHOD f (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world

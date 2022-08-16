@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b/w net/minecraft/block/CraftingTableBlock
+	METHOD <init> (I)V
+		ARG 1 id

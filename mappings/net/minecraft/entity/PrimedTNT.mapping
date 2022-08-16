@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/c/c/a net/minecraft/entity/PrimedTNT
+	FIELD a defused I
+	METHOD <init> (Lnet/minecraft/a/a/g;FFF)V
+		ARG 1 world
