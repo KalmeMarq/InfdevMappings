@@ -1,22 +1,66 @@
 CLASS net/minecraft/a/b/k net/minecraft/item/Item
-	FIELD A stick Lnet/minecraft/a/b/k;
-	FIELD B bowl Lnet/minecraft/a/b/k;
-	FIELD C mushroomStew Lnet/minecraft/a/b/k;
-	FIELD H string Lnet/minecraft/a/b/k;
-	FIELD J gunpowder Lnet/minecraft/a/b/k;
+	FIELD A STICK Lnet/minecraft/a/b/k;
+	FIELD B BOWL Lnet/minecraft/a/b/k;
+	FIELD C MUSHROOM_STEW Lnet/minecraft/a/b/k;
+	FIELD D DIAMOND_SWORD Lnet/minecraft/a/b/k;
+	FIELD E DIAMOND_SHOVEL Lnet/minecraft/a/b/k;
+	FIELD F DIAMOND_PICKAXE Lnet/minecraft/a/b/k;
+	FIELD G DIAMOND_AXE Lnet/minecraft/a/b/k;
+	FIELD H STRING Lnet/minecraft/a/b/k;
+	FIELD J GUNPOWDER Lnet/minecraft/a/b/k;
+	FIELD K WOODEN_HOE Lnet/minecraft/a/b/k;
+	FIELD L STONE_HOE Lnet/minecraft/a/b/k;
+	FIELD M IRON_HOE Lnet/minecraft/a/b/k;
+	FIELD N GOLD_HOE Lnet/minecraft/a/b/k;
+	FIELD O DIAMOND_HOE Lnet/minecraft/a/b/k;
 	FIELD a random Ljava/util/Random;
-	FIELD am flint Lnet/minecraft/a/b/k;
-	FIELD ar sign Lnet/minecraft/a/b/k;
-	FIELD as door Lnet/minecraft/a/b/k;
-	FIELD at bucket Lnet/minecraft/a/b/k;
-	FIELD aw minecart Lnet/minecraft/a/b/k;
+	FIELD aa IRON_HELMET Lnet/minecraft/a/b/k;
+	FIELD ab IRON_CHESTPLATE Lnet/minecraft/a/b/k;
+	FIELD ac IRON_LEGGINGS Lnet/minecraft/a/b/k;
+	FIELD ad IRON_BOOTS Lnet/minecraft/a/b/k;
+	FIELD ae DIAMOND_HELMET Lnet/minecraft/a/b/k;
+	FIELD af DIAMOND_CHESTPLATE Lnet/minecraft/a/b/k;
+	FIELD ag DIAMOND_LEGGINGS Lnet/minecraft/a/b/k;
+	FIELD ah DIAMOND_BOOTS Lnet/minecraft/a/b/k;
+	FIELD ai GOLD_HELMET Lnet/minecraft/a/b/k;
+	FIELD aj GOLD_CHESTPLATE Lnet/minecraft/a/b/k;
+	FIELD ak GOLD_LEGGINGS Lnet/minecraft/a/b/k;
+	FIELD al GOLD_BOOTS Lnet/minecraft/a/b/k;
+	FIELD am FLINT Lnet/minecraft/a/b/k;
+	FIELD ap PAINTING Lnet/minecraft/a/b/k;
+	FIELD aq GOLDEN_APPLE Lnet/minecraft/a/b/k;
+	FIELD ar SIGN Lnet/minecraft/a/b/k;
+	FIELD as DOOR Lnet/minecraft/a/b/k;
+	FIELD at BUCKET Lnet/minecraft/a/b/k;
+	FIELD au WATER_BUCKET Lnet/minecraft/a/b/k;
+	FIELD av LAVA_BUCKET Lnet/minecraft/a/b/k;
+	FIELD aw MINECART Lnet/minecraft/a/b/k;
 	FIELD ax id I
-	FIELD f flintAndSteel Lnet/minecraft/a/b/k;
-	FIELD g apple Lnet/minecraft/a/b/k;
-	FIELD j coal Lnet/minecraft/a/b/k;
-	FIELD k diamond Lnet/minecraft/a/b/k;
-	FIELD l ironIngot Lnet/minecraft/a/b/k;
-	FIELD m goldIngot Lnet/minecraft/a/b/k;
+	FIELD c IRON_SHOVEL Lnet/minecraft/a/b/k;
+	FIELD d IRON_PICKAXE Lnet/minecraft/a/b/k;
+	FIELD e IRON_AXE Lnet/minecraft/a/b/k;
+	FIELD f FLINT_AND_STEEL Lnet/minecraft/a/b/k;
+	FIELD g APPLE Lnet/minecraft/a/b/k;
+	FIELD h BOW Lnet/minecraft/a/b/k;
+	FIELD j COAL Lnet/minecraft/a/b/k;
+	FIELD k DIAMOND Lnet/minecraft/a/b/k;
+	FIELD l IRON_INGOT Lnet/minecraft/a/b/k;
+	FIELD m GOLD_INGOT Lnet/minecraft/a/b/k;
+	FIELD n IRON_SWORD Lnet/minecraft/a/b/k;
+	FIELD o WOODEN_SWORD Lnet/minecraft/a/b/k;
+	FIELD p WOODEN_SHOVEL Lnet/minecraft/a/b/k;
+	FIELD q WOODEN_PICKAXE Lnet/minecraft/a/b/k;
+	FIELD r WOODEN_AXE Lnet/minecraft/a/b/k;
+	FIELD s STONE_SWORD Lnet/minecraft/a/b/k;
+	FIELD t STONE_SHOVEL Lnet/minecraft/a/b/k;
+	FIELD u STONE_PICKAXE Lnet/minecraft/a/b/k;
+	FIELD v STONE_AXE Lnet/minecraft/a/b/k;
+	FIELD w GOLD_SWORD Lnet/minecraft/a/b/k;
+	FIELD x GOLD_SHOVEL Lnet/minecraft/a/b/k;
+	FIELD y GOLD_PICKAXE Lnet/minecraft/a/b/k;
+	FIELD z GOLD_AXE Lnet/minecraft/a/b/k;
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a (Lnet/minecraft/a/a/b/aa;)Z
 		ARG 1 block
 	METHOD a (Lnet/minecraft/a/b/o;)V

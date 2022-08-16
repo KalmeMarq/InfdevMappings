@@ -1,1 +1,6 @@
 CLASS net/minecraft/a/a/b/a/b net/minecraft/block/entity/FurnaceTileEntity
+	FIELD e slots [Lnet/minecraft/a/b/o;
+	FIELD f burnTime I
+	FIELD h cookTime I
+	METHOD d (I)I
+		ARG 0 inputId

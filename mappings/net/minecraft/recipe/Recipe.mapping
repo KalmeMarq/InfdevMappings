@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/b/a/c
+CLASS net/minecraft/a/b/a/c net/minecraft/recipe/Recipe
 	FIELD d itemStack Lnet/minecraft/a/b/o;
 	METHOD <init> (II[ILnet/minecraft/a/b/o;)V
 		ARG 4 itemStack

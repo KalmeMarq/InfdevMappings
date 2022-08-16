@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b
+	METHOD a (Lnet/minecraft/a/a/g;ILnet/minecraft/a/c/b;La/b;)I
+		ARG 1 world

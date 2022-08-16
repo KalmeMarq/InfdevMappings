@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/a/e/b
+	METHOD c (II)Lnet/minecraft/a/a/e/e;
+		ARG 1 x
+		ARG 2 z

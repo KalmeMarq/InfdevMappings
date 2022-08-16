@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/b/b net/minecraft/item/BucketItem
+	FIELD aA liquidId I
+	METHOD <init> (II)V
+		ARG 2 liquid

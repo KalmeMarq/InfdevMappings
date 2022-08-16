@@ -10,6 +10,7 @@ CLASS net/minecraft/a/a/d/c net/minecraft/block/Material
 	FIELD i PLANT Lnet/minecraft/a/a/d/c;
 	FIELD j SPONGE Lnet/minecraft/a/a/d/c;
 	FIELD k CLOTH Lnet/minecraft/a/a/d/c;
+	FIELD n DECORATION Lnet/minecraft/a/a/d/c;
 	FIELD o GLASS Lnet/minecraft/a/a/d/c;
 	FIELD p TNT Lnet/minecraft/a/a/d/c;
 	METHOD d isFluid ()Z

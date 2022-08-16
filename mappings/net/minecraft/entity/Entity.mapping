@@ -67,6 +67,8 @@ CLASS net/minecraft/a/c/b net/minecraft/entity/Entity
 		ARG 1 nbt
 	METHOD b getDistanceSquared (Lnet/minecraft/a/c/b;)D
 		ARG 1 entity
+	METHOD b (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
 	METHOD b_ tick ()V
 	METHOD c move (DDD)V
 		ARG 1 x
