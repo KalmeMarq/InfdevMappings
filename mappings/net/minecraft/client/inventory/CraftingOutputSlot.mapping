@@ -1,3 +1,3 @@
-CLASS net/minecraft/client/c/a/d net/minecraft/inventory/CraftingOutputSlot
+CLASS net/minecraft/client/c/a/d net/minecraft/client/inventory/CraftingOutputSlot
 	METHOD <init> (Lnet/minecraft/client/c/a/j;Lnet/minecraft/a/b;Lnet/minecraft/a/b;III)V
 		ARG 1 screen

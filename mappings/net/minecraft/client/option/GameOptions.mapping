@@ -23,6 +23,7 @@ CLASS net/minecraft/client/p net/minecraft/client/option/GameOptions
 	FIELD t keybinds [Lnet/minecraft/client/g;
 	FIELD u optionsCount I
 	FIELD v difficulty I
+	FIELD w thirdPerson Z
 	FIELD x RENDER_DISTANCES [Ljava/lang/String;
 	FIELD y DIFFICULTIES [Ljava/lang/String;
 	FIELD z chatKey Lnet/minecraft/client/g;
@@ -40,3 +41,4 @@ CLASS net/minecraft/client/p net/minecraft/client/option/GameOptions
 		ARG 1 index
 	METHOD b cycleOption (II)V
 		ARG 1 optionIndex
+		ARG 2 amount

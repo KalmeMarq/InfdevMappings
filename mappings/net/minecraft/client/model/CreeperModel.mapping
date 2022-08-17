@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/b/m net/minecraft/client/model/CreeperModel
+	FIELD a head Lnet/minecraft/client/b/d;
+	FIELD c body Lnet/minecraft/client/b/d;
+	FIELD d rightHindLeg Lnet/minecraft/client/b/d;
+	FIELD e leftHindLeg Lnet/minecraft/client/b/d;
+	FIELD f rightFrontLeg Lnet/minecraft/client/b/d;
+	FIELD g leftFrontLeg Lnet/minecraft/client/b/d;

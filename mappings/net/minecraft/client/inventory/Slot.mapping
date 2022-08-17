@@ -1,0 +1,18 @@
+CLASS net/minecraft/client/c/a/g net/minecraft/client/inventory/Slot
+	FIELD a index I
+	FIELD b x I
+	FIELD c y I
+	FIELD d inventory Lnet/minecraft/a/b;
+	METHOD <init> (Lnet/minecraft/client/c/a/j;Lnet/minecraft/a/b;III)V
+		ARG 2 inventory
+		ARG 3 index
+		ARG 4 x
+		ARG 5 y
+	METHOD a isOver (II)Z
+		ARG 1 mouseX
+		ARG 2 mouseY
+	METHOD a canInsert (Lnet/minecraft/a/b/o;)Z
+		ARG 1 stack
+	METHOD b setStack (Lnet/minecraft/a/b/o;)V
+		ARG 1 stack
+	METHOD c makeDirty ()V

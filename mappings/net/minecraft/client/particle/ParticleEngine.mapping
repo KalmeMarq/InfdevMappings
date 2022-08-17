@@ -12,5 +12,17 @@ CLASS net/minecraft/client/f/d net/minecraft/client/particle/ParticleEngine
 	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/client/a/k;)V
 		ARG 1 world
 		ARG 2 textureManager
+	METHOD a (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (Lnet/minecraft/a/a/g;)V
+		ARG 1 world
 	METHOD a (Lnet/minecraft/a/c/b;F)V
 		ARG 1 entity
+	METHOD a addEmitter (Lnet/minecraft/client/f/k;)V
+		ARG 1 particle

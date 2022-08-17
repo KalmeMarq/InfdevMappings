@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/c/a/a net/minecraft/client/inventory/CraftingInventory
+	FIELD a stacks [Lnet/minecraft/a/b/o;
+	FIELD b size I

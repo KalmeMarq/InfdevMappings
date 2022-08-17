@@ -1,3 +1,13 @@
 CLASS net/minecraft/a/c/e/a net/minecraft/entity/player/PlayerEntity
 	FIELD R score I
+	FIELD U username Ljava/lang/String;
 	FIELD b inventory Lnet/minecraft/a/c/e/b;
+	METHOD a openFurnaceScreen (Lnet/minecraft/a/a/b/a/b;)V
+		ARG 1 entity
+	METHOD a openEditSignScreen (Lnet/minecraft/a/a/b/a/d;)V
+		ARG 1 entity
+	METHOD a openInventory (Lnet/minecraft/a/b;)V
+		ARG 1 inventory
+	METHOD a addCritParticles (Lnet/minecraft/a/c/b;)V
+		ARG 1 target
+	METHOD f_ openCraftingTable ()V

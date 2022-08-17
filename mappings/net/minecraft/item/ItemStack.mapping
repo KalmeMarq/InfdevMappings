@@ -19,5 +19,6 @@ CLASS net/minecraft/a/b/o net/minecraft/item/ItemStack
 	METHOD <init> (Lnet/minecraft/a/b/k;I)V
 		ARG 1 item
 		ARG 2 count
+	METHOD a getItem ()Lnet/minecraft/a/b/k;
 	METHOD a serialize (Lcom/a/a/c;)Lcom/a/a/c;
 		ARG 1 compound

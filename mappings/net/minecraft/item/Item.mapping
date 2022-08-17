@@ -75,5 +75,8 @@ CLASS net/minecraft/a/b/k net/minecraft/item/Item
 		ARG 1 itemStack
 		ARG 2 player
 		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
 	METHOD b (Lnet/minecraft/a/b/o;)V
 		ARG 1 itemStack

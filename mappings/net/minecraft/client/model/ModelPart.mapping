@@ -1,2 +1,8 @@
 CLASS net/minecraft/client/b/d net/minecraft/client/model/ModelPart
+	FIELD b pitch F
+	FIELD c yaw F
+	FIELD d roll F
+	FIELD e mirrored Z
 	FIELD f visible Z
+	METHOD a pivot (FFF)V
+	METHOD a cuboid (FFFIIIF)V

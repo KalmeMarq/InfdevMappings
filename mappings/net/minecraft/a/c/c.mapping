@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/c/c
-	METHOD a (Lnet/minecraft/a/c/b;F)V
-		ARG 1 entity

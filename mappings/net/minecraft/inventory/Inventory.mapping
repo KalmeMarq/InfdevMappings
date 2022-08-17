@@ -1,5 +1,0 @@
-CLASS net/minecraft/a/b net/minecraft/inventory/Inventory
-	METHOD a (ILnet/minecraft/a/b/o;)V
-		ARG 2 itemStack
-	METHOD b getContainerName ()Ljava/lang/String;
-	METHOD c getMaxStackSize ()I

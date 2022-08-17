@@ -1,0 +1,13 @@
+CLASS net/minecraft/a/b net/minecraft/client/inventory/Inventory
+	METHOD a size ()I
+	METHOD a getStack (I)Lnet/minecraft/a/b/o;
+		ARG 1 slot
+	METHOD a removeStack (II)Lnet/minecraft/a/b/o;
+		ARG 1 slot
+		ARG 2 amount
+	METHOD a setStack (ILnet/minecraft/a/b/o;)V
+		ARG 1 slot
+		ARG 2 itemStack
+	METHOD b getContainerName ()Ljava/lang/String;
+	METHOD c getMaxStackSize ()I
+	METHOD d makeDirty ()V

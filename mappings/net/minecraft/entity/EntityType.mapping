@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/c/e
+CLASS net/minecraft/a/c/e net/minecraft/entity/EntityType
 	FIELD a byName Ljava/util/Map;
 	FIELD b byClass Ljava/util/Map;
 	METHOD a (Lcom/a/a/c;Lnet/minecraft/a/a/g;)Lnet/minecraft/a/c/b;

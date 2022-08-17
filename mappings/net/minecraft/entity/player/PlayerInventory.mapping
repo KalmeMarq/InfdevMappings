@@ -1,4 +1,6 @@
 CLASS net/minecraft/a/c/e/b net/minecraft/entity/player/PlayerInventory
+	FIELD c selected I
 	FIELD d player Lnet/minecraft/a/c/e/a;
 	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 player
+	METHOD e getSelectedItem ()Lnet/minecraft/a/b/o;

@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/j net/minecraft/client/ChatMessage
+	FIELD a message Ljava/lang/String;
+	FIELD b age I
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 message

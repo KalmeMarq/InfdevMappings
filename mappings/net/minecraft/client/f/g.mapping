@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/f/g
+	METHOD <init> (Lnet/minecraft/a/a/g;DDD)V
+		ARG 1 world

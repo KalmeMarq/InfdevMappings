@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/b/b net/minecraft/client/model/QuadrupedEntityModel
+	FIELD a head Lnet/minecraft/client/b/d;
+	FIELD b body Lnet/minecraft/client/b/d;
+	FIELD c rightHindLeg Lnet/minecraft/client/b/d;
+	FIELD d leftHindLeg Lnet/minecraft/client/b/d;
+	FIELD e rightFrontLeg Lnet/minecraft/client/b/d;
+	FIELD f leftFrontLeg Lnet/minecraft/client/b/d;

@@ -1,3 +1,8 @@
 CLASS net/minecraft/client/b/n net/minecraft/client/model/Model
-	METHOD a render (FFFFFF)V
+	METHOD a a (FFFFFF)V
 	METHOD b setupTransforms (FFFFFF)V
+		ARG 1 limbAngle
+		ARG 2 limbDistance
+		ARG 3 f3
+		ARG 4 headYaw
+		ARG 5 headPitch
